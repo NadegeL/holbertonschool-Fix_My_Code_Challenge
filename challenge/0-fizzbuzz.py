@@ -29,7 +29,6 @@ def fizzbuzz(n):
 
 
 if __name__ == '__main__':
-    print(sys.argv)
     if len(sys.argv) <= 1:
         print("Missing number")
         print("Usage: ./0-fizzbuzz.py <number>")
